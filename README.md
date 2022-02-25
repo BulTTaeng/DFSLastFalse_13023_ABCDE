@@ -1,1 +1,28 @@
-# 13023_ABCDE
+# DFSLastFalse_13023_ABCDE
+
+made by Jaehyeok Choi
+
+## Welcome to Jaehyeok's github!
+
+## What is the problem?
+
+![image](https://github.com/Choi-JaeHyeok-21500749/DFSLastFalse_13023_ABCDE/blob/main/13023_pro.PNG)
+
+## What Algorithm should I use?
+
+Graph Algorithm ,dfs
+
+## What was the key point and the hard part?
+
+Similar problem with 1405 Crazy Robot.
+
+The key point is that we might visit D friend first if A - B , B - C , C - D , D - E , A-D.
+
+In this case, dfs might visit A - D - E first and not visit A - B - C - D - E.
+
+So, we have to visit = false before return.
+
+## Where can I get more help, if I need it?
+
+You can contact me through email, which is wogur7496@gmail.com.
+Thank you for visiting this github!
